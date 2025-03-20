@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  color: #3D4044;
+}
+
+#logo{
+  max-width: 80px;
+  max-height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+button {
+  background-color: #219EBC; /* Primary button color */
+  color: white; /* Text color */
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #43B7BF; /* Lighter shade for hover */
+}
+
+button:active {
+  background-color: #3D4044; /* Darker shade for active state */
+}
+
+button:disabled {
+  background-color: #8ECAE6; /* Disabled button color */
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+
+
+@layer base {}
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
