@@ -21,9 +21,9 @@ function Hero() {
     </Link>
   
     <img 
-      src="public/pascal-meier-UYiesSO4FiM-unsplash copy.jpg" 
-      alt="Travel"  
-      className="w-full md:w-3/4 lg:w-1/2 rounded-lg shadow-lg mt-8"
+      src="public/Screenshot 2025-03-20 at 12.54.46 PM.png" 
+      alt="Travel preview" 
+      className="w-full md:w-[80%] lg:w-[70%] rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 mt-4"
     />
   </div>
   
